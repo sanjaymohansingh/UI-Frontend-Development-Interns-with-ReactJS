@@ -1,0 +1,53 @@
+@media (min-width: 1200px) {
+  .container{
+      max-width: 970px;
+  }
+}
+.chatbox{
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: bisque;
+  
+}
+.me .chatbox{
+  background-color: cadetblue;
+  
+}
+
+.container{
+  display: flex;
+}
+.container.me{
+  flex-direction: row-reverse;
+}
+
+.btm{
+  position: fixed;
+  width: 100%;
+  bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  background-color: darkgrey;
+}
+.btm input{
+  padding: 20px 0;
+  flex-grow: 1;
+  background-color: cornflowerblue;
+  box-sizing: border-box;
+  
+
+}
+.btm button{
+  padding: 20px 0;
+}
+ 
+
+.chat-container{
+  height: 100vh;
+  overflow-y:scroll;
+  border: 1px solid black;
+ background-color: yellow;
+
+}
